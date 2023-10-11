@@ -50,6 +50,7 @@ body {
 .heading-one {
   color: pink;
   padding: 0 2rem;
+  line-height: 1rem;
 }
 
 .heading-two {
