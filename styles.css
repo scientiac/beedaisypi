@@ -6,7 +6,7 @@ body {
   overflow: hidden; /* Hide scrollbars */
   margin: 0; /* Remove default margin */
   background-color: #F5F5DC; /* Set the background color to white */
-  height: 100vh; /* Make the body cover the entire viewport height */
+  height: 100dvh; /* Make the body cover the entire viewport height */
   position: relative; /* Allow absolute positioning of the fountain */
 }
 
