@@ -9,6 +9,13 @@ let mouseStopped = false;
 let lastMouseX = -1;
 let lastMouseY = -1;
 
+// Disable the longpress menu on mobile
+window.oncontextmenu = function(event) {
+     event.preventDefault();
+     event.stopPropagation();
+     return false;
+};
+
 // Function to create a falling daisy emoji with random size and direction
 function createFallingDaisy(x, y) {
     const emoji = document.createElement('div');
