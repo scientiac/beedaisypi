@@ -38,24 +38,24 @@ body {
 
 .info {
   position: relative;
-  top: 75%;
+  top: 55%;
 }
 
 .heading-one {
-  color: pink;
+  color: #f79cac;
   padding: 0 2rem;
   line-height: 1.5rem;
 }
 
 .heading-two {
-  color: pink;
+  color: #f79cac;
   padding: 0 2rem;
 }
 
 .social-link {
   font-size:2rem;
   padding: 2rem 2rem;
-  color: pink;
+  color: #f79cac;
   z-index: 1;
 }
 
@@ -93,7 +93,7 @@ body {
   /* For mobile phones: */
   .info {
   position: relative;
-  top: 10%;
+  top: 0%;
 }
   
   #pastelDiv {
