@@ -1,0 +1,63 @@
+body {
+  cursor: none; /* Hide the default cursor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide scrollbars */
+  margin: 0; /* Remove default margin */
+  background-color: #F5F5DC; /* Set the background color to white */
+  height: 100vh; /* Make the body cover the entire viewport height */
+  position: relative; /* Allow absolute positioning of the fountain */
+}
+
+#cursor {
+  position: absolute;
+  background-color: transparent; /* Make the background transparent */
+  pointer-events: none; /* Allow interaction with elements beneath the cursor */
+  transition: transform 0.2s; /* Add transition effect for cursor movement */
+}
+
+#fountain {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: blue; /* Color of the fountain */
+  pointer-events: none; /* Allow interaction with elements beneath the fountain */
+  border-radius: 50%; /* Make the fountain round */
+  animation: fountain 1s ease-out infinite; /* Add fountain animation */
+}
+
+.emoji {
+  position: absolute;
+  pointer-events: none; /* Allow interaction with elements beneath the emojis */
+  animation: pulse 1s alternate infinite; /* Add pulsing animation to emojis */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2); /* Scale up and down for pulsing effect */
+  }
+}
+
+@keyframes fountain {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px); /* Move fountain up */
+    opacity: 0; /* Fade out */
+  }
+}
+
+#pastelDiv {
+  height: calc(100% - 5rem); /* Subtract double the gap size to maintain it on all sides */
+  width: calc(100% - 5rem); /* Subtract double the gap size to maintain it on all sides */
+  background: linear-gradient(360deg, rgb(164, 253, 251) 0%, rgb(233, 254, 100) 100%);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+}
