@@ -1,6 +1,6 @@
 const emojis = ['🌼', '🌼', '🌼','☘️', '🌼','🌼', '🌼','☘️', '🌼', '🐤', '🌼','🌼', '🌼', '🌼', '🌼','🌼', '🌼', '🌼', '🌼', '☘️','🐝'];
 // const sizes = [8, 10, 12, 16]; // Different sizes for emojis
-const sizes = [ 8, 10, 12, 16, 20, 24, 28]; // Different sizes for emojis
+const sizes = [ 8, 10, 12, 16, 20]; // Different sizes for emojis
 const numDaisies = 2; // Number of daisies to launch when cursor stops (you can adjust this value)
 const spawnInterval = 1000; // Time interval in milliseconds between spawning daisies
 
