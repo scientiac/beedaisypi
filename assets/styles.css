@@ -36,21 +36,15 @@ body {
   }
 }
 
-@keyframes fountain {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-200px); /* Move fountain up */
-    opacity: 0; /* Fade out */
-  }
+.info {
+  position: relative;
+  top: 75%;
 }
 
 .heading-one {
   color: pink;
   padding: 0 2rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 .heading-two {
@@ -97,6 +91,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .info {
+  position: relative;
+  top: 10%;
+}
+  
   #pastelDiv {
   height: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */
   width: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */
