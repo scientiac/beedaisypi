@@ -48,8 +48,8 @@ body {
 }
 
 #pastelDiv {
-  height: calc(100% - 5rem); /* Subtract double the gap size to maintain it on all sides */
-  width: calc(100% - 5rem); /* Subtract double the gap size to maintain it on all sides */
+  height: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */
+  width: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */
   background: linear-gradient(360deg, rgb(164, 253, 251) 0%, rgb(233, 254, 100) 100%);
   border-radius: 8px;
   padding: 20px;
