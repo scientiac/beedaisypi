@@ -17,16 +17,6 @@ body {
   transition: transform 0.2s; /* Add transition effect for cursor movement */
 }
 
-#fountain {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background-color: blue; /* Color of the fountain */
-  pointer-events: none; /* Allow interaction with elements beneath the fountain */
-  border-radius: 50%; /* Make the fountain round */
-  animation: fountain 1s ease-out infinite; /* Add fountain animation */
-}
-
 .emoji {
   position: absolute;
   pointer-events: none; /* Allow interaction with elements beneath the emojis */
