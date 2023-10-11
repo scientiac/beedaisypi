@@ -47,6 +47,26 @@ body {
   }
 }
 
+.heading-one {
+  color: pink;
+  padding: 0 2rem;
+}
+
+.heading-two {
+  color: pink;
+  padding: 0 2rem;
+}
+
+.social-link {
+  font-size:2rem;
+  padding: 2rem 2rem;
+  color: pink;
+  z-index: 1;
+}
+
+.social-link:hover {
+   cursor: default;
+}
 
 #pastelDiv {
   position: relative;
@@ -59,20 +79,13 @@ body {
   overflow: hidden;
 }
 
-#pastelDiv::before, #pastelDiv::after {
+#pastelDiv::after {
   content: '';
   position: absolute;
   width: 50%; 
   height: 50%;  
   background-size: cover; /* or contain, depending on your preference */
-  z-index: 0;
-}
-
-#pastelDiv::before {
-  top: 0;
-  right: 75%;
-  transform: rotate(180deg); /* Reverse the position for the bottom right */
-  /* background: url('mandala.svg') no-repeat; */
+  z-index: 1;
 }
 
 #pastelDiv::after {
@@ -86,11 +99,6 @@ body {
   #pastelDiv {
   height: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */
   width: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */
-  }
-
-  #pastelDiv::before {
-    width: 50%;
-    height: 50%;
   }
   
    #pastelDiv::after {

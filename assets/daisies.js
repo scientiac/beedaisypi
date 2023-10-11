@@ -114,7 +114,7 @@ function handleTouch(event) {
 }
 
 // Hide the actual mouse pointer
-document.body.style.cursor = 'none';
+// document.body.style.cursor = 'none';
 
 // Listen for mousemove events
 document.addEventListener('mousemove', updateCursor);
