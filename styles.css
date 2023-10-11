@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 body {
   cursor: none; /* Hide the default cursor */
   display: flex;
