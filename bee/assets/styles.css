@@ -50,10 +50,24 @@ body {
   color: inherit;
 }
 
+#startButton {
+  background: none;
+  cursor: none;
+  font-size: 1.5rem;
+}
+
+#startButton:hover {
+  background-color: white;
+}
+
 .bio{
   font-size: 1.2rem;
   padding: 0 2rem;
   color: #818f9c;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 .heading-one {
