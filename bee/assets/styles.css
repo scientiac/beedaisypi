@@ -119,6 +119,20 @@ p {
   background: url('mandala.svg') no-repeat;
 }
 
+
+.page {
+    animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .info {
@@ -130,6 +144,7 @@ p {
     font-size: 1.1rem;
     color: #818f9c;
   }
+
 
   #pastelDiv {
     height: calc(100% - 4rem); /* Subtract double the gap size to maintain it on all sides */

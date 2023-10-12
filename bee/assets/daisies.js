@@ -13,6 +13,14 @@ let mouseStopped = false;
 let lastMouseX = -1;
 let lastMouseY = -1;
 
+
+// Wait for the document to load
+document.addEventListener("DOMContentLoaded", function() {
+    // Add a class to trigger the animation
+    const slideDiv = document.getElementById("slideDiv");
+    slideDiv.classList.add("animate-slide");
+});
+
 // Disable the longpress menu on mobile
 window.oncontextmenu = function(event) {
      event.preventDefault();
