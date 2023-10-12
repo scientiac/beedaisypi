@@ -44,6 +44,12 @@ body {
   }
 }
 
+.paralink {
+  cursor: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 .bio{
   font-size: 1.2rem;
   padding: 0 2rem;

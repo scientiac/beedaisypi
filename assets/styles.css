@@ -52,6 +52,12 @@ body {
   color: #818f9c;
 }
 
+.paralink {
+  cursor: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 .info {
   position: relative;
   top: 55%;
@@ -77,7 +83,8 @@ body {
 }
 
 .social-link:hover {
-   cursor: default;
+  cursor: none;
+  color: #818f9c;
 }
 
 #pastelDiv {
@@ -97,7 +104,7 @@ body {
   width: 50%; 
   height: 50%;  
   background-size: cover; /* or contain, depending on your preference */
-  z-index: 0;
+  z-index: 1;
 }
 
 #pastelDiv::after {
