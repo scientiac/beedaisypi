@@ -17,7 +17,7 @@ body {
   align-items: center;
   overflow: hidden; /* Hide scrollbars */
   margin: 0; /* Remove default margin */
-  background-color: #F5F5DC; /* Set the background color to white */
+  background-color: #F5F5DC; 
   height: 100dvh; /* Make the body cover the entire viewport height */
   position: relative; /* Allow absolute positioning of the fountain */
 }
@@ -50,6 +50,7 @@ body {
   position: relative;
   top: 20%;
   color: #818f9c;
+  height: 2rem;
 }
 
 .paralink {
@@ -79,7 +80,6 @@ body {
   line-height: 3rem; 
   padding: 2rem;
   color: #f79cac;
-  z-index: 1;
 }
 
 .social-link:hover {
@@ -103,8 +103,8 @@ body {
   position: absolute;
   width: 50%; 
   height: 50%;  
-  background-size: cover; /* or contain, depending on your preference */
-  z-index: 1;
+  background-size: cover;
+  z-index: 0;
 }
 
 #pastelDiv::after {
