@@ -14,6 +14,7 @@ let lastMouseX = -1;
 let lastMouseY = -1;
 
 
+
 // Wait for the document to load
 document.addEventListener("DOMContentLoaded", function() {
     // Add a class to trigger the animation
@@ -130,3 +131,9 @@ function handleTouch(event) {
 // Listen for mousemove events
 document.addEventListener('mousemove', updateCursor);
 document.addEventListener('touchmove', handleTouch);
+
+
+function unwrapGift() {
+    var giftWrap = document.getElementById('giftWrap');
+    giftWrap.classList.add('hidden');
+}

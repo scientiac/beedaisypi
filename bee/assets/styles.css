@@ -107,6 +107,26 @@ p {
   overflow: hidden;
 }
 
+#giftWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('mandala.svg'),radial-gradient(currentColor 1.5px, transparent 1.5px),radial-gradient(currentColor 1.5px, transparent 1.5px), linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-size:calc(20 * 1.5px) calc(20 * 1.5px);
+  background-position:0 0,calc(10 * 1.5px) calc(10 * 1.5px);
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: auto;
+}
+
+#giftWrap.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 #pastelDiv::after {
   content: '';
   position: absolute;
@@ -122,18 +142,17 @@ p {
   background: url('mandala.svg') no-repeat;
 }
 
-
 .page {
-    animation: slide-in 1s ease forwards;
+  animation: slide-in 1s ease forwards;
 }
 
 @keyframes slide-in {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 @media only screen and (max-width: 768px) {
