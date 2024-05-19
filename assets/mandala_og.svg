@@ -29,10 +29,10 @@
      inkscape:document-units="mm"
      showguides="false"
      inkscape:zoom="0.11066365"
-     inkscape:cx="686.76569"
-     inkscape:cy="1942.824"
-     inkscape:window-width="1348"
-     inkscape:window-height="715"
+     inkscape:cx="2168.7338"
+     inkscape:cy="1938.3058"
+     inkscape:window-width="1291"
+     inkscape:window-height="700"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -44,11 +44,11 @@
        id="linearGradient2"
        inkscape:collect="always">
       <stop
-         style="stop-color:#fbbfa1;stop-opacity:1;"
+         style="stop-color:#ff6010;stop-opacity:1;"
          offset="0"
          id="stop2" />
       <stop
-         style="stop-color:#82bcdd;stop-opacity:1;"
+         style="stop-color:#1fa4f3;stop-opacity:1;"
          offset="1"
          id="stop3" />
     </linearGradient>
